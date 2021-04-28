@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Catamaran', sans-serif;
+}
+
+.contained {
+    margin: 0 15%;
+}
+
+nav {
+    height: 80px;
+    width: 100%;
+    background-color: #2B5FE9;
+    position: relative;    
+}
+
+.contained {
+    line-height: 80px;
+    position: relative;
+}
+
+nav .contained img {
+    vertical-align: middle;
+}
+
+nav ul, nav li {
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+nav ul {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+nav li {
+    margin: 0 15px;
+}
+
+nav li a {
+    color: white;
+    text-decoration: none;
+}
+
+nav li:hover {
+    text-decoration: underline;
+}
+
+.accedi {
+    line-height: normal;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    font-weight: 400;
+    padding: 5px 10px;
+    border-radius: 20px;
+    background-color: white;
+} 
+
+.accedi:hover {
+    box-shadow: 0 1px 1px rgba(0,0,0,0.12), 
+                0 2px 2px rgba(0,0,0,0.12), 
+                0 4px 4px rgba(0,0,0,0.12), 
+                0 8px 8px rgba(0,0,0,0.12),
+                0 16px 16px rgba(0,0,0,0.12);
+    color: #5F88F9;
+}
+
+
+
