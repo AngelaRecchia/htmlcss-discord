@@ -128,13 +128,13 @@ nav li:hover {
     margin-right: 20px;
 }
 
+.scarica i {
+    margin-right: 10px;
+}
+
 .apri {
     background-color: black;
     color: white
-}
-
-.scarica i {
-    margin-right: 10px;
 }
 
 main {
@@ -191,6 +191,58 @@ svg {
 
 .sezvert {
     text-align: center;
+}
+
+.adv-text {
+    font-size: 25px;
+    font-weight: 800;
+}
+
+.adventure {
+    position: relative;
+    padding: 20px 30px;
+    display: inline-block;
+    margin-top: 30px
+}
+
+.star {
+    position: absolute;
+}
+
+#star1 {
+    color: #FF7ABC;
+    font-size: 25px;
+    left: 0;
+    top: 10%;
+}
+
+#star2 {
+    color: #C6C4FB;
+    font-size: 12px;
+    top: 0;
+    left: 60%;
+}
+
+#star3 {
+    color: #628BF7;
+    font-size: 15px;
+    top: 20%;
+    right: 5%;
+}
+
+#star4 {
+    color: #6BDBC6;
+    font-size: 13px;
+    top: 0;
+    right: 0;
+}
+
+.getit {
+    margin: 10px 0 100px
+}
+.getit .btn.scarica {
+    background-color: #8EA1E1;
+    color: white;
 }
 
 
