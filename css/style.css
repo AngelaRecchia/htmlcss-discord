@@ -13,6 +13,12 @@ body {
     position: relative;
 }
 
+.clearfix {
+    content: "";
+    display: table;
+    clear: both;
+}
+
 nav {
     height: 80px;
     width: 100%;
@@ -136,10 +142,13 @@ main {
 }
 
 .stext {
-    position: absolute;
-    right: 0;
+    display: inline-block;
     width: 30%;
     padding-top: 25px;
+}
+
+.sezoriz.bianca .stext {
+    float: right;
 }
 
 .titolo {
@@ -157,8 +166,24 @@ main {
 
 .imgsect {
     max-width: 60%;
-    position: absolute;
 }
+
+.grigia {
+    margin: -10px 0;
+    background-color: #f6f6f6;
+}
+.sezoriz.grigia .stext {
+    float: left;
+}
+
+.sezoriz.grigia .imgsect {
+    float: right;
+}
+
+.wave {
+    margin-top: 110px;
+}
+
 
 
 
