@@ -9,7 +9,8 @@ body {
 }
 
 .contained {
-    margin: 0 15%;
+    width: 80%;
+    margin: auto;
     position: relative;
 }
 
@@ -238,11 +239,55 @@ svg {
 }
 
 .getit {
-    margin: 10px 0 100px
+    padding: 10px 0 100px
 }
+
 .getit .btn.scarica {
     background-color: #8EA1E1;
     color: white;
+}
+
+footer {
+    background-color: #23272A;
+    height: 300px;
+    padding-top: 90px;
+    color: white;
+}
+
+.col {
+    width: calc(100% / 5);
+    float: left;
+}
+
+.footitle {
+    color: #7188D8;
+    font-weight: 800;
+    font-size: 25px;
+}
+
+#flag {
+    max-width: 15%;
+    vertical-align: middle;
+    margin-right: 10px
+}
+
+.lingua {
+    margin: 20px 0;
+    font-size: 13px;
+    vertical-align: middle;
+}
+
+.lingua i {
+    margin-left: 10px;
+    font-size: 10px;
+}
+
+.loghi {
+    font-size: 20px;
+}
+
+.loghi i {
+    margin-right: 20px;
 }
 
 
