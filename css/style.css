@@ -65,6 +65,10 @@ nav li:hover {
     text-decoration: underline;
 }
 
+.logo:hover {
+    cursor: pointer;
+}
+
 .btn {
     padding: 5px 10px;
     border-radius: 20px;
@@ -81,12 +85,16 @@ nav li:hover {
 } 
 
 .accedi:hover {
+    color: #5F88F9;
+}
+
+.btn:hover {
+    cursor: pointer;
     box-shadow: 0 1px 1px rgba(0,0,0,0.12), 
                 0 2px 2px rgba(0,0,0,0.12), 
                 0 4px 4px rgba(0,0,0,0.12), 
                 0 8px 8px rgba(0,0,0,0.12),
                 0 16px 16px rgba(0,0,0,0.12);
-    color: #5F88F9;
 }
 
 .jumbo {
@@ -247,6 +255,7 @@ svg {
 .getit .btn.scarica {
     background-color: #8EA1E1;
     color: white;
+    display: inline-block;
 }
 
 footer {
@@ -295,13 +304,23 @@ footer {
     margin-right: 20px;
 }
 
+.lingua:hover, .loghi > *:hover {
+    cursor: pointer;
+}
+
 footer ul {
     list-style: none;
+    line-height: 2;
 }
 
 footer ul li:first-child {
     color: #7188D8;
     font-weight: 200;
+}
+
+footer ul li:not(:first-child):hover{
+    text-decoration: underline;
+    cursor: pointer;
 }
 
 .foot {
