@@ -142,12 +142,12 @@ main {
 }
 
 .stext {
-    display: inline-block;
-    width: 30%;
     padding-top: 25px;
 }
 
-.sezoriz.bianca .stext {
+.sezoriz .stext {
+    display: inline-block;
+    width: 30%;
     float: right;
 }
 
@@ -164,14 +164,15 @@ main {
     line-height: 1.6;
 }
 
-.imgsect {
+.sezoriz .imgsect {
     max-width: 60%;
 }
 
 .grigia {
-    margin: -10px 0;
     background-color: #f6f6f6;
 }
+
+
 .sezoriz.grigia .stext {
     float: left;
 }
@@ -182,6 +183,14 @@ main {
 
 .wave {
     margin-top: 110px;
+}
+
+svg {
+    display: block;
+}
+
+.sezvert {
+    text-align: center;
 }
 
 
